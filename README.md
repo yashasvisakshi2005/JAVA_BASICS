@@ -10,4 +10,14 @@ public class Main
 	}
 }
 
-B)
+B) PRINT TWO FLOATING NUMBERS
+
+public class Main
+{
+	public static void main(String[] args) {
+	    float a = 5.0f;
+	    float b = 6.2f;
+	    float mul = a*b;
+		System.out.println(mul);
+	}
+}
