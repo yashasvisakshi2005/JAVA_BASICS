@@ -21,3 +21,130 @@ public class Main
 		System.out.println(mul);
 	}
 }
+
+C) SWAP TWO NUMBERS
+public class Main
+{
+	public static void main(String[] args) {
+	   int a = 5;
+	   int b = 6;
+	   int c = a;
+	   a= b;
+	   b=c;
+		System.out.println(a);
+		System.out.println(b);
+	
+	}
+}
+
+D) Check if a Given Integer is Odd or Even
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int a = sc.nextInt();
+	    if(a%2==0){
+	   System.out.println("IT IS A EVEN NUMBER");     
+	    }
+	    else{
+	    System.out.println("IT IS A ODD NUMBER");
+	    }
+	   
+		
+	
+	}
+}
+E)Find the Largest of three Numbers
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int n1 = sc.nextInt();
+	    int n2 = sc.nextInt();
+	    int n3 = sc.nextInt();
+	    if(n1>n2 && n1>n3){
+	        System.out.println("N1 IS GREATEST");
+	    }
+	    else if(n2>n1 && n2>n3){
+	      System.out.println("N2 IS GREATEST"); 
+	   }
+	   if(n3>n1 && n3>n2){
+	   System.out.println("N3 IS GREATEST");
+	   }
+	
+	}
+}
+
+F)Find if a Given Year is a Leap Year
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int yr = sc.nextInt();
+	     if(yr%4==0){
+	   System.out.println("IT IS A LEAP YEAR");
+	   }
+	    
+	        
+	    
+	  
+	
+	}
+}
+
+G)Calculate Simple Interest
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int p = sc.nextInt();
+	    int r = sc.nextInt();
+	    int t = sc.nextInt();
+	    
+	    int SI = (p*r*t)/100;
+	    
+	     
+	   System.out.println("SI IS"+" "+ SI);
+	   
+	    
+	        
+	    
+	  
+	
+	}
+}
+H)Find the Perimeter of a Rectangle
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int l = sc.nextInt();
+	    int b = sc.nextInt();
+	    
+	    
+	    int PERIMETER = 2*(l+b);
+	    
+	     
+	   System.out.println("PERIMETER IS"+" "+ PERIMETER);
+	   
+	    
+	        
+	    
+	  
+	
+	}
+}
+I)
+
+
+
+
+
+
+
