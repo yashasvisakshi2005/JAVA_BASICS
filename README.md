@@ -165,6 +165,45 @@ public class Main
 	
 	}
 }
+J)USE OF BITWISE OPERATORS:-
+1) BITWISE AND ->
+   import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("ENTER YOUR NUM1");
+	    int n1 = sc.nextInt();
+	    System.out.println("ENTER YOUR NUM2");
+	    int n2 = sc.nextInt();
+	    
+	    int AND = n1 & n2;
+	    System.out.println(AND);
+	    
+	   
+	    
+	//	System.out.println("Hello World");
+	}
+}
+2)BITWISE OR ->
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("ENTER YOUR NUM1");
+	    int n1 = sc.nextInt();
+	    System.out.println("ENTER YOUR NUM2");
+	    int n2 = sc.nextInt();
+	    
+	    int AND = n1 ^ n2;
+	    System.out.println(AND);
+	    
+	   
+	    
+	
+	}
+}
 
 
 
