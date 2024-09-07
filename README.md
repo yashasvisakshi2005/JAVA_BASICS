@@ -204,6 +204,117 @@ public class Main
 	
 	}
 }
+K) ADD TWO NUMBERS USING FUNCTIONS:-
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    int a = readnum();
+	    int b = readnum();
+	    int sum = a+b;
+		System.out.println(" THE SUM OF NUMBERS IS "+""+ sum);
+	}
+    public static int readnum(){
+      Scanner sc = new Scanner(System.in);  
+      System.out.println("ENTER YOUR NUMBER:");
+      int num = sc.nextInt();
+      return num;
+    }	
+	
+	
+	
+	
+}
+L)MULTIPLICATION TABLE OF N :-
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int num = sc.nextInt();
+	    for(int i = 1; i<=10 ; i++){
+	    System.out.println( num +"*"+ i +"="+ num*i);    
+	    }
+	//	System.out.println("Hello World");
+	}
+}
+M)	WAP TO PRINT SUM OF ALL ODD NUMBERS TILL N:-
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER THE NO. OF TERMS");
+		int n = sc.nextInt();
+		int sum =0 ;
+		for( int i = 1; i<=n;i++)
+		    if((i%2)!=0)
+		        sum = sum + i;
+		 System.out.println("THE SUM OF ALL ODD NUM IS "+ " : "+ sum);       
+		    		
+		
+		
+			
+				
+			
+		
+
+
+
+		
+	}
+}
+N) WAP TO PRINT FACTORIAL:-
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER THE NO. OF TERMS");
+		int n = sc.nextInt();
+		int fact = 1 ;
+		for( int i = 1; i<=n;i++)
+		    fact = fact*i;
+		 System.out.println( fact );       
+		}
+  }
+   O) WAP TO FIND SUM OF DIGITS IN NUMBER:-
+   public class Main
+{
+	public static void main(String[] args) {
+	 int n = 9984;
+	 int sum = 0;
+	 while(n>0){
+	     sum = sum + n%10;
+	     n = n/10;
+	   //  System.out.println(sum);
+	 }
+		System.out.println(sum);
+	}
+ }
+		
+			
+				
+			
+		
+
+
+
+		
+	
+
+		
+		
+			
+				
+			
+		
+
+
+
+		
+	
 
 
 
