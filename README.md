@@ -37,7 +37,7 @@ public class Main
 	}
 }
 
-D) Check if a Given Integer is Odd or Even
+D) Check if a Given Integer is Odd or Evenm
 import java.util.*;
 public class Main
 {
